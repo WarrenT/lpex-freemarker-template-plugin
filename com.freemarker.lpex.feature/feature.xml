@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.freemarker.lpex"
+      label="LPEX FreeMarker Template"
+      version="1.2.5.r"
+      provider-name="LPEX FreeMarker Team">
+
+   <description url="http://freemarker.org/">
+      The LPEX FreeMarker Plug-in uses the Apache FreeMarker template
+engine for inserting RPG templates into your source code. You
+can use define input screens for assigning values to variables,
+which can be used in your templates. The plug-in comes with a
+C# Template Builder application to create and maintain your templates.
+The Apache FreeMarker Template Language (FTL) is a rich &quot;programming&quot;
+language that allows all sorts of program logic for developing
+your templates.
+   </description>
+
+   <copyright url="https://github.com/mariuslr/lpex-freemarker-template-plugin">
+      Provided by Marius le Roux, Rob Newton and Thomas Raddatz.
+   </copyright>
+
+   <license url="http://www.smart-technologies.obi.com/">
+      FreeMarker is Free software, licensed under the Apache License, Version 2.0,
+which is available at http://freemarker.org/docs/app_license.html.
+The LPEX FreeMarker plug-in is made available
+under the terms of the Common Public License v1.0 which is available 
+at http://www.eclipse.org/legal/cpl-v10.html.
+   </license>
+
+   <url>
+      <discovery label="LPEX FreeMarker plug-in project page" url="http://code.google.com/p/lpex-freemarker-template-plugin/"/>
+      <discovery label="LPEX FreeMarker plug-in at GitHub" url="https://github.com/mariuslr/lpex-freemarker-template-plugin"/>
+      <discovery label="Apache FreeMarker" url="http://freemarker.org/"/>
+      <discovery label="Tools/400" url="http://www.tools400.de"/>
+   </url>
+
+   <plugin
+         id="com.freemarker.lpex"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

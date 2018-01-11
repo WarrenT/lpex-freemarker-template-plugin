@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="com.ibm.lpex.preload">
+      <preload
+            class="com.freemarker.lpex.Preload"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+         class="com.freemarker.lpex.preferences.PreferencePage"
+         id="com.freemarker.lpex.preferences.PreferencesPage"
+         name="LPEX FreeMarker Templates">
+      </page>
+      <page
+         class="com.freemarker.lpex.preferences.ParserAssociationPreferencePage"
+         id="com.freemarker.lpex.preferences.ParserAssociationPreferencePage"
+         name="Parser Associations"
+         category="com.freemarker.lpex.preferences.PreferencesPage">
+      </page>
+      <page
+         class="com.freemarker.lpex.preferences.LinksPreferencePage"
+         id="com.freemarker.lpex.preferences.LinksPreferencePage"
+         name="Project Links"
+         category="com.freemarker.lpex.preferences.PreferencesPage">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+         class="com.freemarker.lpex.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+</plugin>

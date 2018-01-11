@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.freemarker.lpex_1.2.5.r.jar" id="com.freemarker.lpex" version="1.2.5.r">
+      <category name="com.freemarker.lpex"/>
+   </feature>
+   <category-def name="com.freemarker.lpex" label="LPEX FreeMarker Template"/>
+</site>
