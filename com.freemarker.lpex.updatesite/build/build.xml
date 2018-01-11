@@ -248,7 +248,7 @@
 		
 		<!-- 'upload' folder -->
 		<delete includeemptydirs="true">
-			<fileset dir="${build.upload.dir}" includes="**/*"/>
+			<fileset dir="${build.upload.dir}" excludes=".gitignore" includes="**/*"/>
 		</delete>
 		
 	</target>
