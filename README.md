@@ -1,7 +1,7 @@
 # lpex-freemarker-template-plugin
 This is a FreeMarker template engine plugin for the LPEX Editor in IBM Rational Developer for IBM i (RDi).
 
-The project had been forked from WarrenT/lpex-freemarker-template-plugin for fixing bugs and adding enhancements.
+The project had been forked from WarrenT/lpex-freemarker-template-plugin for fixing bugs and adding enhancements. It is compatible with RDP8.0, RDi 9.1, RDi 9.5 and RDi 9.6 based on today, January 1st, 2018.
 
 The main enhancements added so far are:
 
