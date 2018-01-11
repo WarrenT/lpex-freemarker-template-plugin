@@ -133,7 +133,7 @@
 	<!-- =============================================================
 	      Kopiert alle erforderlichen Assets-Dateien.
 	     ============================================================= -->
-	<target name="createSourceForgeFiles" depends="createZipFile, createUpdateSite, compileTemplateBuilder" description="Step 3">
+	<target name="createSourceForgeFiles" depends="compileTemplateBuilder, createZipFile, createUpdateSite" description="Step 3">
 		
 		<antcall target="cleanTempAndPDE" />
 		<antcall target="refreshProjects" />
