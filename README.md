@@ -22,7 +22,7 @@ merge content with the template base. All template files should be
 stored with the ftl file extension.
 
 Apache FreeMarker and the Apache FreeMarker manual are available
-at: http://freemarker.org/
+at: [http://freemarker.org/](http://freemarker.org/)
 
 Building the plug-in is described in files `build.xml` and 
 `create_package.txt` of project `com.freemarker.lpex.updatesite`.
@@ -32,23 +32,17 @@ directory `TemplateBuilder` of project `com.freemarker.lpex.updatesite`.
 
 Useful links:
 
-[LPEX FreeMarker plug-in project page]
-   (http://code.google.com/p/lpex-freemarker-template-plugin)
+[LPEX FreeMarker plug-in project page](http://code.google.com/p/lpex-freemarker-template-plugin)
 
-[LPEX FreeMarker plug-in at GitHub]
-   (https://github.com/WarrenT/lpex-freemarker-template-plugin)
+[LPEX FreeMarker plug-in at GitHub](https://github.com/WarrenT/lpex-freemarker-template-plugin)
 
-[Apache FreeMarker]
-   (http://freemarker.org)
+[Apache FreeMarker](http://freemarker.org)
 
-[Apache FreeMarker Documentation]
-   (http://freemarker.org/docs/dgui.html)
+[Apache FreeMarker Documentation](http://freemarker.org/docs/dgui.html)
 
-[Tools/400]
-   (http://www.tools400.de)
+[Tools/400](http://www.tools400.de)
 
-[iSphere]
-   (https://sourceforge.net/projects/isphere/)
+[iSphere](https://sourceforge.net/projects/isphere/)
 
 ## Template Syntax
 
