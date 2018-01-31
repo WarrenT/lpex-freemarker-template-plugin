@@ -20,7 +20,7 @@ LPEX FreeMarker plug-in project page
    http://code.google.com/p/lpex-freemarker-template-plugin
 
 LPEX FreeMarker plug-in at GitHub
-   https://github.com/mariuslr/lpex-freemarker-template-plugin
+   https://github.com/WarrenT/lpex-freemarker-template-plugin
 
 Apache FreeMarker
    http://freemarker.org
