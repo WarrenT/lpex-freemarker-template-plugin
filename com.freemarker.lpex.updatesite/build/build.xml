@@ -138,6 +138,14 @@
 		<antcall target="cleanTempAndPDE" />
 		<antcall target="refreshProjects" />
 		
+		<echo>+------------------------------------------------------</echo>
+		<echo>|  Finished RPGUnit build ${build.version}             </echo>
+		<echo>|                                                      </echo>
+		<echo>|  Create local update site:                           </echo>
+		<echo>|  ${build.upload.dir.files}/${version.file}           </echo>
+		<echo>|                                                      </echo>
+		<echo>+------------------------------------------------------</echo>
+		
 	</target>
 	
 	<!-- =============================================================
