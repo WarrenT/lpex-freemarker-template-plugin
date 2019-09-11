@@ -2,7 +2,7 @@
 <feature
       id="com.freemarker.lpex"
       label="LPEX FreeMarker Template"
-      version="1.2.5.r"
+      version="1.2.6.r"
       provider-name="LPEX FreeMarker Team">
 
    <description url="http://freemarker.org/">
