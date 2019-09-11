@@ -51,6 +51,8 @@ public final class Preferences {
 
     public static final String TEMPLATES_LAST_SYNC_DATE = "templatesLastSyncDate";
 
+    public static final String SHOW_ECLIPSE_ERROR_LOG_ON_ERROR = "showEclipseErrorLogOnError";
+
     /**
      * Private constructor to ensure the Singleton pattern.
      */
@@ -103,6 +105,16 @@ public final class Preferences {
      */
     public boolean isSmartSyncEnabled() {
         return preferenceStore.getBoolean(Preferences.TEMPLATES_COMPARE_DATES);
+    }
+
+    /**
+     * Returns <code>true</code> if the "Error Log" view is shown when a new
+     * entry is appended to the Eclipse error log, else <code>false</code>.
+     * 
+     * @return <code>true</code> when the error log view is shown.
+     */
+    public boolean isShowErrorLog() {
+        return preferenceStore.getBoolean(Preferences.SHOW_ECLIPSE_ERROR_LOG_ON_ERROR);
     }
 
     /**
@@ -245,22 +257,21 @@ public final class Preferences {
      * PreferenceInitializer class.
      */
     public void initializeDefaultPreferences() {
-        preferenceStore.setDefault(Preferences.TEMPLATES_LOCAL_DIRECTORY, getUserHome()
-            + "\\Documents\\Programmierung\\Tools\\LPEX FreeMarker Templates\\");
+        preferenceStore.setDefault(Preferences.TEMPLATES_LOCAL_DIRECTORY,
+            getUserHome() + "\\Documents\\Programmierung\\Tools\\LPEX FreeMarker Templates\\");
         preferenceStore.setDefault(Preferences.LOG_PATH, getDefaultLogPath());
         preferenceStore.setDefault(Preferences.LOG_LEVEL, "severe");
         preferenceStore.setDefault(Preferences.AUTHOR, "");
         preferenceStore.setDefault(Preferences.DATE_FORMAT, getDefaultDateFormat());
-        preferenceStore
-            .setDefault(
-                Preferences.PARSER_MAPPINGS,
-                "c++=cpp;cbl=cobol;cl=cl;cle=cl;clle=cl;clp=cl;dds=dds;dspf=dds;h=cpp;ilerpg=rpg;ilerpgsql=rpg;lf=dds;pf=dds;pftbl=sql;prtf=dds;rpg=rpg;rpg36=rpg;rpg38=rpg;rpgle=rpg;rpgleinc=rpg;sql=sql;sqlc=sql;sqlrpg=rpg;sqlrpgle=rpg;sqlrple=rpg;");
+        preferenceStore.setDefault(Preferences.PARSER_MAPPINGS,
+            "c++=cpp;cbl=cobol;cl=cl;cle=cl;clle=cl;clp=cl;dds=dds;dspf=dds;h=cpp;ilerpg=rpg;ilerpgsql=rpg;lf=dds;pf=dds;pftbl=sql;prtf=dds;rpg=rpg;rpg36=rpg;rpg38=rpg;rpgle=rpg;rpgleinc=rpg;sql=sql;sqlc=sql;sqlrpg=rpg;sqlrpgle=rpg;sqlrple=rpg;");
         preferenceStore.setDefault(Preferences.TEMPLATES_AUTO_SYNC_TEMPLATES, false);
         preferenceStore.setDefault(Preferences.TEMPLATES_AUTO_SYNC_ASSOCIATIONS, false);
         preferenceStore.setDefault(Preferences.TEMPLATES_COMPARE_DATES, true);
         preferenceStore.setDefault(Preferences.TEMPLATES_TEAM_DIRECTORY,
             "\\\\localhost\\AS400_Entwicklung\\Entwicklung\\Programmierung\\Tools\\LPEX FreeMarker Templates\\");
         preferenceStore.setDefault(Preferences.TEMPLATES_LAST_SYNC_DATE, "");
+        preferenceStore.setDefault(Preferences.SHOW_ECLIPSE_ERROR_LOG_ON_ERROR, true);
     }
 
     private String getUserHome() {

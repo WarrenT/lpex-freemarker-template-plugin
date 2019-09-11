@@ -1,6 +1,11 @@
 package com.freemarker.lpex;
 
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
+import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.eclipse.ui.progress.UIJob;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.Version;
 
@@ -60,6 +65,59 @@ public class LPEXFreeMarkerPlugin extends AbstractUIPlugin {
 
     public static Version getVersion() {
         return version;
+    }
+
+    /**
+     * Convenience method to log error messages to the application log.
+     * 
+     * @param message Message
+     * @param e The exception that has produced the error
+     */
+    public static void logError(String message, Throwable e) {
+        if (plugin == null) {
+            System.err.println(message);
+            if (e != null) {
+                e.printStackTrace();
+            }
+            return;
+        }
+        plugin.getLog().log(new Status(Status.ERROR, PLUGIN_ID, Status.ERROR, message, e));
+        showErrorLog(false);
+    }
+
+    private static void showErrorLog(final boolean logError) {
+
+        if (!Preferences.getInstance().isShowErrorLog()) {
+            return;
+        }
+
+        UIJob job = new UIJob("") {
+
+            @Override
+            public IStatus runInUIThread(IProgressMonitor arg0) {
+
+                try {
+
+                    final String ERROR_LOG_VIEW = "org.eclipse.pde.runtime.LogView"; // $NON-NLS-1$
+
+                    IWorkbenchPage activePage = getDefault().getWorkbench().getActiveWorkbenchWindow().getActivePage();
+                    if (activePage != null) {
+                        if (activePage.findView(ERROR_LOG_VIEW) == null) {
+                            activePage.showView(ERROR_LOG_VIEW);
+                        }
+                    }
+
+                } catch (Throwable e) {
+                    if (logError) {
+                        logError("*** Could not open error log view ***", e); //$NON-NLS-1$
+                    }
+                }
+
+                return Status.OK_STATUS;
+            }
+        };
+
+        job.schedule();
     }
 
 }

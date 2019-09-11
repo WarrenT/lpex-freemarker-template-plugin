@@ -97,13 +97,16 @@ public class PreferencePage extends FieldEditorPreferencePage implements IWorkbe
         tLogFileFieldEditor.setFileExtensions(new String[] { "log", "*" });
         addField(tLogFileFieldEditor);
 
-        addField(new RadioGroupFieldEditor(Preferences.LOG_LEVEL, "Choose the logging level", 1, new String[][] { { "All", "all" },
-            { "Info", PluginLogger.PRIORITY_INFO }, { "Warning", PluginLogger.PRIORITY_WARNING }, { "Severe", PluginLogger.PRIORITY_SEVERE },
-            { "Off", PluginLogger.PRIORITY_OFF } }, getFieldEditorParent()));
+        addField(new RadioGroupFieldEditor(Preferences.LOG_LEVEL,
+            "Choose the logging level", 1, new String[][] { { "All", "all" }, { "Info", PluginLogger.PRIORITY_INFO },
+                { "Warning", PluginLogger.PRIORITY_WARNING }, { "Severe", PluginLogger.PRIORITY_SEVERE }, { "Off", PluginLogger.PRIORITY_OFF } },
+            getFieldEditorParent()));
 
         addField(new StringFieldEditor(Preferences.AUTHOR, "Default author:", getFieldEditorParent()));
 
         addField(new StringFieldEditor(Preferences.DATE_FORMAT, "Date format (java.text.SimpleDateFormat):", getFieldEditorParent()));
+
+        addField(new BooleanFieldEditor(Preferences.SHOW_ECLIPSE_ERROR_LOG_ON_ERROR, "Show Eclipse error log on error", getFieldEditorParent()));
     }
 
     private void setButtonEnablement() {
