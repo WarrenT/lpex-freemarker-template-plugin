@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import com.freemarker.lpex.LPEXFreeMarkerPlugin;
 import com.ibm.etools.iseries.comm.interfaces.IISeriesHostKeyField;
 import com.ibm.etools.iseries.services.qsys.api.IQSYSObject;
 import com.ibm.etools.iseries.subsystems.qsys.api.IBMiConnection;
@@ -18,7 +19,6 @@ import freemarker.template.SimpleHash;
 import freemarker.template.SimpleNumber;
 import freemarker.template.SimpleScalar;
 import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 import freemarker.template.TemplateModelException;
@@ -71,7 +71,7 @@ import freemarker.template.TemplateNumberModel;
  * &lt;/@keyList>
  * </pre>
  */
-public class KeyListDirective implements TemplateDirectiveModel {
+public class KeyListDirective extends AbstractDirective {
 
     /**
      * Input parameters of the directive
@@ -223,13 +223,9 @@ public class KeyListDirective implements TemplateDirectiveModel {
                 aBody.render(anEnvironment.getOut());
             }
         } else {
-            throw new RuntimeException(produceMessage("missing body / key fields"));
+            throw new RuntimeException(produceMessage("missing body / empty key fields"));
         }
 
-    }
-
-    private String produceMessage(String aText) {
-        return getClass().getSimpleName() + ": " + aText;
     }
 
     /**
@@ -256,10 +252,8 @@ public class KeyListDirective implements TemplateDirectiveModel {
 
             try {
                 initialize();
-            } catch (SQLException e) {
-                e.printStackTrace();
             } catch (Exception e) {
-                e.printStackTrace();
+                LPEXFreeMarkerPlugin.logError("KeyListDirective: Could not retrieve key list", e);
             }
         }
 

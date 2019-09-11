@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import com.freemarker.lpex.LPEXFreeMarkerPlugin;
 import com.ibm.etools.iseries.services.qsys.api.IQSYSDatabaseField;
 import com.ibm.etools.iseries.services.qsys.api.IQSYSFileField;
 import com.ibm.etools.iseries.services.qsys.api.IQSYSFileRecordFormat;
@@ -23,7 +24,6 @@ import freemarker.template.SimpleHash;
 import freemarker.template.SimpleNumber;
 import freemarker.template.SimpleScalar;
 import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 import freemarker.template.TemplateModelException;
@@ -79,7 +79,7 @@ import freemarker.template.TemplateModelException;
  * &lt;/@fieldList>
  * </pre>
  */
-public class FieldListDirective implements TemplateDirectiveModel {
+public class FieldListDirective extends AbstractDirective {
 
     /**
      * Input parameters of the directive
@@ -188,12 +188,7 @@ public class FieldListDirective implements TemplateDirectiveModel {
         }
 
         // Retrieve the key field list
-        FieldList tKeyList;
-        try {
-            tKeyList = new FieldList(tFile, tLibrary, tRecordFormat);
-        } catch (Exception e) {
-            throw new RuntimeException(e.getLocalizedMessage());
-        }
+        FieldList tKeyList = new FieldList(tFile, tLibrary, tRecordFormat);
 
         // If there is non-empty nested content:
         int i = 0;
@@ -239,13 +234,9 @@ public class FieldListDirective implements TemplateDirectiveModel {
                 aBody.render(anEnvironment.getOut());
             }
         } else {
-            throw new RuntimeException(produceMessage("missing body / field list"));
+            throw new RuntimeException(produceMessage("missing body / empty field list"));
         }
 
-    }
-
-    private String produceMessage(String aText) {
-        return getClass().getSimpleName() + ": " + aText;
     }
 
     /**
@@ -263,13 +254,17 @@ public class FieldListDirective implements TemplateDirectiveModel {
 
         private List<Field> fieldList = null;
 
-        public FieldList(String aFile, String aLibrary, String aRecordFormat) throws Exception {
+        public FieldList(String aFile, String aLibrary, String aRecordFormat) {
             file = aFile;
             library = aLibrary;
             recordFormat = aRecordFormat;
             fieldList = new ArrayList<Field>();
 
-            initialize();
+            try {
+                initialize();
+            } catch (Exception e) {
+                LPEXFreeMarkerPlugin.logError("FieldListDirective: Could not retrieve field list", e);
+            }
         }
 
         @SuppressWarnings("unused")
@@ -352,8 +347,8 @@ public class FieldListDirective implements TemplateDirectiveModel {
                 IQSYSFileRecordFormat tRecordFormat = aFile.getRecordFormat(aFormat, null);
                 return tRecordFormat.getName();
             } catch (Exception e) {
-                throw new RuntimeException(produceMessage("Record format '" + aFormat + "' of file '" + aFile.getLibrary() + "/" + aFile.getName()
-                    + "' not found."));
+                throw new RuntimeException(
+                    produceMessage("Record format '" + aFormat + "' of file '" + aFile.getLibrary() + "/" + aFile.getName() + "' not found."));
             }
         }
     }

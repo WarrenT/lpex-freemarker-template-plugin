@@ -15,7 +15,6 @@ import com.freemarker.lpex.utils.StringUtil;
 import freemarker.core.Environment;
 import freemarker.template.SimpleScalar;
 import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 import freemarker.template.TemplateModelException;
@@ -108,7 +107,7 @@ import freemarker.template.TemplateNumberModel;
  * // ===========================================================
  * </pre>
  */
-public class MultilineDirective implements TemplateDirectiveModel {
+public class MultilineDirective extends AbstractDirective {
 
     private static final String PARAM_NAME_TEXT = "text";
 
@@ -134,7 +133,7 @@ public class MultilineDirective implements TemplateDirectiveModel {
 
         // Ensure that there is no loop variable given
         if (aLoopVarList.length != 0) {
-            throw new TemplateModelException("This directive doesn't allow loop variables.");
+            throw new TemplateModelException(produceMessage("This directive doesn't allow loop variables."));
         }
 
         String tText = null;
@@ -237,7 +236,7 @@ public class MultilineDirective implements TemplateDirectiveModel {
             }
 
         } else {
-            throw new RuntimeException("missing body");
+            throw new RuntimeException(produceMessage("missing body"));
         }
     }
 
@@ -292,9 +291,5 @@ public class MultilineDirective implements TemplateDirectiveModel {
         }
 
         return 0;
-    }
-
-    private String produceMessage(String aText) {
-        return getClass().getSimpleName() + ": " + aText;
     }
 }

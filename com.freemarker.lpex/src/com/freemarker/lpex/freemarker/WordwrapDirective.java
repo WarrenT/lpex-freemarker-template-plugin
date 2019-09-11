@@ -51,7 +51,7 @@ import freemarker.template.TemplateNumberModel;
  *          //===========================================================
  * </pre>
  */
-public class WordwrapDirective implements TemplateDirectiveModel {
+public class WordwrapDirective extends AbstractDirective {
 
     private static final String PARAM_NAME_TEXT = "text";
 
@@ -66,7 +66,7 @@ public class WordwrapDirective implements TemplateDirectiveModel {
 
         // Ensure that there is no loop variable given
         if (aLoopVarList.length != 0) {
-            throw new TemplateModelException("This directive doesn't allow loop variables.");
+            throw new TemplateModelException(produceMessage("This directive doesn't allow loop variables."));
         }
 
         String tText = null;
@@ -119,9 +119,5 @@ public class WordwrapDirective implements TemplateDirectiveModel {
             tReturnVars.add(new SimpleScalar(line));
         }
         anEnvironment.setVariable(tReturn, new SimpleSequence(tReturnVars));
-    }
-
-    private String produceMessage(String aText) {
-        return getClass().getSimpleName() + ": " + aText;
     }
 }
