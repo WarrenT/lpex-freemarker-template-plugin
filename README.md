@@ -36,6 +36,8 @@ Useful links:
 
 [LPEX FreeMarker plug-in at GitHub](https://github.com/WarrenT/lpex-freemarker-template-plugin)
 
+[LPEX FreeMarker video on YouTube](https://www.youtube.com/watch?v=iMBkhXWDs6o)
+
 [Apache FreeMarker](http://freemarker.org)
 
 [Apache FreeMarker Documentation](http://freemarker.org/docs/dgui.html)
