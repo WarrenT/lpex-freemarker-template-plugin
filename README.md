@@ -40,9 +40,9 @@ Useful links:
 
 [Apache FreeMarker Documentation](http://freemarker.org/docs/dgui.html)
 
-[Tools/400](http://www.tools400.de)
+[iSphere](http://isphere.sourceforge.net/)
 
-[iSphere](https://sourceforge.net/projects/isphere/)
+[iRPGUnit](https://irpgunit.sourceforge.io/)
 
 ## Template Syntax
 
