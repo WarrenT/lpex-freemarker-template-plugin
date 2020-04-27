@@ -46,6 +46,37 @@ Useful links:
 
 [iRPGUnit](https://irpgunit.sourceforge.io/)
 
+## Setup
+
+Start with installing the plug-in. Then go to the preferences page
+at [Window -> Preferences -> LPEX FreMarker Templates] and set the
+folloing properties.
+
+* Local templates directory (folder must exist)
+* Debug log (create an empty log file)
+
+The preferences dialog does not work pretty well and needs some
+improvements.
+
+Eventually copy the (more or less usefull) example templates from the
+archived update site (zip file) into your local templates directory.
+The directory structure should look like that:
+
+local_templates_directory
+  +-- rpg
+  +-- sql
+
+You can use the *Parser Associations* to assign a sub-directory of
+the *Local templates directory* to your source member types.
+
+For example, by default the following source member types are connected
+to the *rpg* sub-folder:
+
+* RPG
+* RPGLE
+* SQLRPG
+* SQLRPGLE
+
 ## Template Syntax
 
 Each template should be a valid ftl file that FreeMarker can parse 
