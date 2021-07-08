@@ -1,0 +1,360 @@
+<UserSettings>
+	<ApplicationIdentity version="10.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment">
+			<ToolsOptionsSubCategory name="General" RegisteredName="General" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="AnimationSpeed">5</PropertyValue>
+				<PropertyValue name="RichClientExperienceOptions">65535</PropertyValue>
+				<PropertyValue name="WindowMenuContainsNItems">10</PropertyValue>
+				<PropertyValue name="CloseButtonActiveTabOnly">true</PropertyValue>
+				<PropertyValue name="AutoAdjustExperience">true</PropertyValue>
+				<PropertyValue name="Animations">true</PropertyValue>
+				<PropertyValue name="AutohidePinActiveTabOnly">false</PropertyValue>
+				<PropertyValue name="ShowStatusBar">true</PropertyValue>
+				<PropertyValue name="MRUListContainsNItems">10</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="TaskList" RegisteredName="TaskList" PackageName="Visual Studio Task List Package">
+				<PropertyValue name="ConfirmTaskDeletion">true</PropertyValue>
+				<PropertyValue name="CommentTokens" ArrayType="VT_VARIANT" ArrayElementCount="4">
+					<PropertyValue name="0">TODO:2</PropertyValue>
+					<PropertyValue name="1">HACK:2</PropertyValue>
+					<PropertyValue name="2">UNDONE:2</PropertyValue>
+					<PropertyValue name="3">UnresolvedMergeConflict:3</PropertyValue>
+				</PropertyValue>
+				<PropertyValue name="WarnOnAddingHiddenItem">false</PropertyValue>
+				<PropertyValue name="DontShowFilePaths">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="Documents" RegisteredName="Documents" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="ShowMiscFilesProject">false</PropertyValue>
+				<PropertyValue name="AutoloadExternalChanges">false</PropertyValue>
+				<PropertyValue name="CheckForConsistentLineEndings">true</PropertyValue>
+				<PropertyValue name="SaveDocsAsUnicodeWhenDataLoss">false</PropertyValue>
+				<PropertyValue name="InitializeOpenFileFromCurrentDocument">true</PropertyValue>
+				<PropertyValue name="ReuseSavedActiveDocWindow">false</PropertyValue>
+				<PropertyValue name="DetectFileChangesOutsideIDE">true</PropertyValue>
+				<PropertyValue name="DontShowGlobalUndoChangeLossDialog">true</PropertyValue>
+				<PropertyValue name="AllowEditingReadOnlyFiles">true</PropertyValue>
+				<PropertyValue name="DocumentDockPreference">0</PropertyValue>
+				<PropertyValue name="MiscFilesProjectSavesLastNItems">0</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="FindAndReplace" RegisteredName="FindAndReplace" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="ShowWarningMessages">true</PropertyValue>
+				<PropertyValue name="InitializeFromEditor">true</PropertyValue>
+				<PropertyValue name="ShowMessageBoxes">true</PropertyValue>
+				<PropertyValue name="HideWindowAfterMatchFromQuickFindReplace">false</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="ProjectsAndSolution" RegisteredName="ProjectsAndSolution" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="ProjectsLocation">%vsspv_visualstudio_dir%\Projects</PropertyValue>
+				<PropertyValue name="PromptForRenameSymbol">true</PropertyValue>
+				<PropertyValue name="TrackFileSelectionInExplorer">false</PropertyValue>
+				<PropertyValue name="ShowOutputWindowBeforeBuild">false</PropertyValue>
+				<PropertyValue name="OnRunWhenErrors">4</PropertyValue>
+				<PropertyValue name="OnRunWhenOutOfDate">4</PropertyValue>
+				<PropertyValue name="AlwaysShowSolutionNode">true</PropertyValue>
+				<PropertyValue name="ProjectItemTemplatesLocation">%vsspv_visualstudio_dir%\Templates\ItemTemplates</PropertyValue>
+				<PropertyValue name="OnlySaveStartupProjectsAndDependencies">false</PropertyValue>
+				<PropertyValue name="ShowAdvancedBuildConfigurations">true</PropertyValue>
+				<PropertyValue name="DefaultBehaviorForStartupProjects">1</PropertyValue>
+				<PropertyValue name="OnRunOrPreview">0</PropertyValue>
+				<PropertyValue name="MSBuildOutputVerbosity">1</PropertyValue>
+				<PropertyValue name="ProjectTemplatesLocation">%vsspv_visualstudio_dir%\Templates\ProjectTemplates</PropertyValue>
+				<PropertyValue name="ShowTaskListAfterBuild">true</PropertyValue>
+				<PropertyValue name="ConcurrentBuilds">2</PropertyValue>
+				<PropertyValue name="SaveNewProjects">false</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="Startup" RegisteredName="Startup" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="OnStartUp">5</PropertyValue>
+				<PropertyValue name="StartPageRefreshDownloadedContent">false</PropertyValue>
+				<PropertyValue name="StartPageRSSUrl">http://go.microsoft.com/fwlink/?linkid=85889&amp;clcid=%VSSPV_LCID_HEX%</PropertyValue>
+				<PropertyValue name="StartPageRefreshInterval">60</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="WebBrowser" RegisteredName="WebBrowser" PackageName="Visual Studio Web Browser Package">
+				<PropertyValue name="HomePage">http://go.microsoft.com/fwlink/?LinkId=36568&amp;clcid=%VSSPV_LCID_HEX%</PropertyValue>
+				<PropertyValue name="SearchPage">http://go.microsoft.com/fwlink/?LinkId=32722&amp;clcid=%VSSPV_LCID_HEX%</PropertyValue>
+				<PropertyValue name="ViewSourceExternalProgram">%systemroot%\system32\notepad.exe</PropertyValue>
+				<PropertyValue name="ViewSourceIn">1</PropertyValue>
+			</ToolsOptionsSubCategory>
+		</ToolsOptionsCategory>
+		<ToolsOptionsCategory name="TextEditor" RegisteredName="TextEditor">
+			<ToolsOptionsSubCategory name="CSharp" RegisteredName="CSharp" PackageName="Text Management Package">
+				<PropertyValue name="TabSize">2</PropertyValue>
+				<PropertyValue name="AutoListMembers">true</PropertyValue>
+				<PropertyValue name="IndentStyle">2</PropertyValue>
+				<PropertyValue name="HideAdvancedMembers">true</PropertyValue>
+				<PropertyValue name="ShowNavigationBar">true</PropertyValue>
+				<PropertyValue name="VirtualSpace">false</PropertyValue>
+				<PropertyValue name="InsertTabs">false</PropertyValue>
+				<PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+				<PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+				<PropertyValue name="ShowLineNumbers">false</PropertyValue>
+				<PropertyValue name="WordWrap">false</PropertyValue>
+				<PropertyValue name="IndentSize">2</PropertyValue>
+				<PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+				<PropertyValue name="AutoListParams">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="CSharp-Specific" RegisteredName="CSharp-Specific" PackageName="Visual C# Language Service Package">
+				<PropertyValue name="NewLines_QueryExpression_EachClause">1</PropertyValue>
+				<PropertyValue name="Space_Normalize">0</PropertyValue>
+				<PropertyValue name="Space_AroundBinaryOperator">1</PropertyValue>
+				<PropertyValue name="Formatting_TriggerOnPaste">1</PropertyValue>
+				<PropertyValue name="UnboundItem_ExactMatches">5</PropertyValue>
+				<PropertyValue name="GenerateConstructorSmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="CompleteOnSpace">1</PropertyValue>
+				<PropertyValue name="WarnWhenMembersCauseCompilerGeneratedReferences">1</PropertyValue>
+				<PropertyValue name="CollapseInactiveBlocksOnOpen">1</PropertyValue>
+				<PropertyValue name="Watson_MaxExceptionsToReport">1</PropertyValue>
+				<PropertyValue name="EditAndContinueReportEnterBreakStateFailure">1</PropertyValue>
+				<PropertyValue name="TrackMostRecentlyUsed">1</PropertyValue>
+				<PropertyValue name="FilterKeywordsContextually">1</PropertyValue>
+				<PropertyValue name="BringUpOnSpace">1</PropertyValue>
+				<PropertyValue name="Rename_Preview">1</PropertyValue>
+				<PropertyValue name="EncapsulateField_PreviewReferenceChanges">1</PropertyValue>
+				<PropertyValue name="DelayBeforeShowingErrors">1500</PropertyValue>
+				<PropertyValue name="CollapseRegionBlocksOnOpen">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_Method">0</PropertyValue>
+				<PropertyValue name="HighlightReferences">1</PropertyValue>
+				<PropertyValue name="RefactorNotifyRenameEnabled">1</PropertyValue>
+				<PropertyValue name="OnlyScanFirstTypeInFileForDesignerAttribute">0</PropertyValue>
+				<PropertyValue name="Indent_CaseLabels">1</PropertyValue>
+				<PropertyValue name="Formatting_TriggerOnBlockCompletion">1</PropertyValue>
+				<PropertyValue name="CompletionCommitCharacters">{}[]().,:;+-*/%&amp;|^!~=&lt;&gt;?@#'"\</PropertyValue>
+				<PropertyValue name="EditAndContinueEnabled">1</PropertyValue>
+				<PropertyValue name="InsertNewlineOnEnterWithWholeWord">0</PropertyValue>
+				<PropertyValue name="BringUpOnOverride">1</PropertyValue>
+				<PropertyValue name="CodeDefinitionWindow_DocumentationComment_IndentOffset">2</PropertyValue>
+				<PropertyValue name="Rename_Comments">0</PropertyValue>
+				<PropertyValue name="Squiggles_SemanticAnalysis">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_ControlFlow">0</PropertyValue>
+				<PropertyValue name="NewLines_Braces_AnonymousMethod">1</PropertyValue>
+				<PropertyValue name="Space_WithinOtherParentheses">0</PropertyValue>
+				<PropertyValue name="BringUpOnIdentifier">1</PropertyValue>
+				<PropertyValue name="RemoveParameters_PreviewReferenceChanges">1</PropertyValue>
+				<PropertyValue name="Wrapping_KeepStatementsOnSingleLine">1</PropertyValue>
+				<PropertyValue name="Space_AfterBasesColon">1</PropertyValue>
+				<PropertyValue name="Indent_Braces">0</PropertyValue>
+				<PropertyValue name="CompleteOnNewline">1</PropertyValue>
+				<PropertyValue name="EncapsulateField_UpdateAllReferences">0</PropertyValue>
+				<PropertyValue name="Wrapping_IgnoreSpacesAroundVariableDeclaration">0</PropertyValue>
+				<PropertyValue name="Space_WithinMethodCallParentheses">0</PropertyValue>
+				<PropertyValue name="Space_AfterCast">1</PropertyValue>
+				<PropertyValue name="Colorize">1</PropertyValue>
+				<PropertyValue name="EditAndContinueReportOpenScopeFailure">0</PropertyValue>
+				<PropertyValue name="FilterToAllowableTypes">1</PropertyValue>
+				<PropertyValue name="SortUsings_PlaceSystemFirst">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_CollectionInitializer">0</PropertyValue>
+				<PropertyValue name="Watson_DeferSendingUntilLater">0</PropertyValue>
+				<PropertyValue name="ShowKeywords">1</PropertyValue>
+				<PropertyValue name="ShowSnippets">1</PropertyValue>
+				<PropertyValue name="BraceMatchingRectangle">1</PropertyValue>
+				<PropertyValue name="NewLines_AnonymousTypeInitializer_EachMember">1</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Catch">0</PropertyValue>
+				<PropertyValue name="NewLines_Braces_ObjectInitializer">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_ArrayInitializer">0</PropertyValue>
+				<PropertyValue name="Space_WithinExpressionParentheses">0</PropertyValue>
+				<PropertyValue name="Space_InControlFlowConstruct">1</PropertyValue>
+				<PropertyValue name="Formatting_TriggerOnStatementCompletion">1</PropertyValue>
+				<PropertyValue name="CodeDefinitionWindow_DocumentationComment_WrapLength">80</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Finally">0</PropertyValue>
+				<PropertyValue name="Space_BetweenEmptyMethodDeclarationParentheses">0</PropertyValue>
+				<PropertyValue name="Indent_UnindentLabels">1</PropertyValue>
+				<PropertyValue name="SmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="SortUsings">1</PropertyValue>
+				<PropertyValue name="Rename_Strings">0</PropertyValue>
+				<PropertyValue name="NewLines_ObjectInitializer_EachMember">1</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Else">0</PropertyValue>
+				<PropertyValue name="TimeSliceForQuickSearchCaching">50</PropertyValue>
+				<PropertyValue name="EnableProgressDialogOnWaitForBackground">1</PropertyValue>
+				<PropertyValue name="Space_WithinMethodDeclarationParentheses">0</PropertyValue>
+				<PropertyValue name="Space_BetweenEmptyMethodCallParentheses">0</PropertyValue>
+				<PropertyValue name="Space_BeforeSemicolonsInForStatement">0</PropertyValue>
+				<PropertyValue name="Space_BeforeComma">0</PropertyValue>
+				<PropertyValue name="Space_AfterMethodCallName">0</PropertyValue>
+				<PropertyValue name="Space_AfterComma">1</PropertyValue>
+				<PropertyValue name="ExtractInterface_SelectAll">0</PropertyValue>
+				<PropertyValue name="ReorderParameters_PreviewReferenceChanges">1</PropertyValue>
+				<PropertyValue name="Wrapping_IgnoreSpacesAroundBinaryOperators">0</PropertyValue>
+				<PropertyValue name="Space_BeforeBasesColon">1</PropertyValue>
+				<PropertyValue name="Space_AfterMethodDeclarationName">0</PropertyValue>
+				<PropertyValue name="Space_AfterDot">0</PropertyValue>
+				<PropertyValue name="UnboundItemSmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="AutoComment">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_Type">1</PropertyValue>
+				<PropertyValue name="Space_AfterLambdaArrow">1</PropertyValue>
+				<PropertyValue name="ImplementInterfaceSmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="BringUpOnPartial">1</PropertyValue>
+				<PropertyValue name="CodeDefinitionWindow_DocumentationComment_IndentBase">1</PropertyValue>
+				<PropertyValue name="EncapsulateField_SearchInStrings">0</PropertyValue>
+				<PropertyValue name="TimeSliceForQuickSearchSearching">50</PropertyValue>
+				<PropertyValue name="EnterOutliningModeOnOpen">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_LambdaExpressionBody">1</PropertyValue>
+				<PropertyValue name="Space_WithinSquares">0</PropertyValue>
+				<PropertyValue name="Space_BeforeLambdaArrow">1</PropertyValue>
+				<PropertyValue name="ShowHiddenItems">0</PropertyValue>
+				<PropertyValue name="Squiggles">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_AnonymousTypeInitializer">1</PropertyValue>
+				<PropertyValue name="Space_WithinCastParentheses">0</PropertyValue>
+				<PropertyValue name="Space_AfterSemicolonsInForStatement">1</PropertyValue>
+				<PropertyValue name="Indent_CaseContents">1</PropertyValue>
+				<PropertyValue name="Indent_FlushLabelsLeft">0</PropertyValue>
+				<PropertyValue name="Watson_ReportExceptions">1</PropertyValue>
+				<PropertyValue name="GenerateStubSmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="BringUpOnEventHookup">1</PropertyValue>
+				<PropertyValue name="ImplementInterface_InsertRegionTags">0</PropertyValue>
+				<PropertyValue name="Wrapping_PreserveSingleLine">1</PropertyValue>
+				<PropertyValue name="Space_BetweenEmptySquares">0</PropertyValue>
+				<PropertyValue name="Space_BeforeOpenSquare">0</PropertyValue>
+				<PropertyValue name="Space_BeforeDot">0</PropertyValue>
+				<PropertyValue name="Indent_BlockContents">1</PropertyValue>
+				<PropertyValue name="RenameSmartTagEnabled">1</PropertyValue>
+				<PropertyValue name="ColorizeBoundTypes">1</PropertyValue>
+				<PropertyValue name="RemoveUnusedUsings">1</PropertyValue>
+				<PropertyValue name="Rename_Overloads">0</PropertyValue>
+				<PropertyValue name="EncapsulateField_SearchInComments">0</PropertyValue>
+				<PropertyValue name="Refactoring_Verification_Enabled">0</PropertyValue>
+				<PropertyValue name="ProgressDialogDelaySeconds">2</PropertyValue>
+			</ToolsOptionsSubCategory>
+		</ToolsOptionsCategory>
+	</ToolsOptions>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+			<FontsAndColors Version="2.0">
+				<Categories/>
+			</FontsAndColors>
+			<PropertyValue name="Version">2</PropertyValue>
+		</Category>
+		<Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+			<Version>10.0.0.0</Version>
+			<KeyboardShortcuts>
+				<ScopeDefinitions>
+					<Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+					<Scope Name="ADO.NET Entity Data Model Designer" ID="{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"/>
+					<Scope Name="Query Designer" ID="{B2C40B32-3A37-4CA9-97B9-FA44248B69FF}"/>
+					<Scope Name="WebBrowser" ID="{E8B06F41-6D01-11D2-AA7D-00C04F990343}"/>
+					<Scope Name="DataSet Editor" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
+					<Scope Name="View Designer" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
+					<Scope Name="Global" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}"/>
+					<Scope Name="Datenbank-Designer" ID="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}"/>
+					<Scope Name="Einstellungs-Designer" ID="{515231AD-C9DC-4AA3-808F-E1B65E72081C}"/>
+					<Scope Name="VisualStudio" ID="{B465B5AD-8799-4507-B90A-EE29ACF36AF9}"/>
+					<Scope Name="Windows Forms Designer" ID="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}"/>
+					<Scope Name="Managed Resources Editor" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
+					<Scope Name="Tabellen-Designer" ID="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}"/>
+				</ScopeDefinitions>
+				<DefaultShortcuts>
+					<RemoveShortcut Command="Edit.SelectCurrentWord" Scope="Text Editor">Strg+W</RemoveShortcut>
+					<RemoveShortcut Command="Edit.GoToFindCombo" Scope="Global">Strg+D</RemoveShortcut>
+					<RemoveShortcut Command="Window.NextSplitPane" Scope="Global">F6</RemoveShortcut>
+					<RemoveShortcut Command="Help.ViewHelp" Scope="Global">Strg+F1</RemoveShortcut>
+					<Shortcut Command="Project.AddClass" Scope="Global">Umschalt+Alt+C</Shortcut>
+					<Shortcut Command="Edit.SelectCurrentWord" Scope="Global">Strg+Umschalt+W</Shortcut>
+					<Shortcut Command="Edit.GoToFindCombo" Scope="Global">Strg+7</Shortcut>
+					<Shortcut Command="View.SolutionExplorer" Scope="Global">Strg+W, S</Shortcut>
+					<Shortcut Command="View.SolutionExplorer" Scope="Global">Strg+W, Strg+S</Shortcut>
+					<Shortcut Command="View.PropertiesWindow" Scope="Global">Strg+W, P</Shortcut>
+					<Shortcut Command="View.PropertiesWindow" Scope="Global">Strg+W, Strg+P</Shortcut>
+					<Shortcut Command="View.ObjectBrowser" Scope="Global">Strg+W, J</Shortcut>
+					<Shortcut Command="View.ObjectBrowser" Scope="Global">Strg+W, Strg+J</Shortcut>
+					<Shortcut Command="View.Toolbox" Scope="Global">Strg+W, X</Shortcut>
+					<Shortcut Command="View.Toolbox" Scope="Global">Strg+W, Strg+X</Shortcut>
+					<Shortcut Command="Refactor.ExtractMethod" Scope="Global">Strg+R, M</Shortcut>
+					<Shortcut Command="Refactor.Rename" Scope="Global">Strg+R, R</Shortcut>
+					<Shortcut Command="Refactor.Rename" Scope="Text Editor">F2</Shortcut>
+					<Shortcut Command="Edit.SurroundWith" Scope="Global">Strg+K, S</Shortcut>
+					<Shortcut Command="Edit.InsertSnippet" Scope="Global">Strg+K, X</Shortcut>
+					<Shortcut Command="Build.BuildSolution" Scope="Global">F6</Shortcut>
+					<Shortcut Command="Build.BuildSelection" Scope="Global">Umschalt+F6</Shortcut>
+					<Shortcut Command="Debug.Watch" Scope="Global">Strg+D, W</Shortcut>
+					<Shortcut Command="Debug.Watch" Scope="Global">Strg+D, Strg+W</Shortcut>
+					<Shortcut Command="Debug.Locals" Scope="Global">Strg+D, L</Shortcut>
+					<Shortcut Command="Debug.Locals" Scope="Global">Strg+D, Strg+L</Shortcut>
+					<Shortcut Command="Debug.Immediate" Scope="Global">Strg+D, I</Shortcut>
+					<Shortcut Command="Debug.Immediate" Scope="Global">Strg+D, Strg+I</Shortcut>
+					<Shortcut Command="Debug.CallStack" Scope="Global">Strg+D, C</Shortcut>
+					<Shortcut Command="Debug.CallStack" Scope="Global">Strg+D, Strg+C</Shortcut>
+					<Shortcut Command="Debug.Threads" Scope="Global">Strg+D, T</Shortcut>
+					<Shortcut Command="Debug.Threads" Scope="Global">Strg+D, Strg+T</Shortcut>
+					<Shortcut Command="Debug.Exceptions" Scope="Global">Strg+D, E</Shortcut>
+					<Shortcut Command="Debug.Exceptions" Scope="Global">Strg+D, Strg+E</Shortcut>
+					<Shortcut Command="View.ClassView" Scope="Global">Strg+W, C</Shortcut>
+					<Shortcut Command="View.ClassView" Scope="Global">Strg+W, Strg+C</Shortcut>
+					<Shortcut Command="View.DatabaseExplorer" Scope="Global">Strg+W, L</Shortcut>
+					<Shortcut Command="View.DatabaseExplorer" Scope="Global">Strg+W, Strg+L</Shortcut>
+					<Shortcut Command="View.DocumentOutline" Scope="Global">Strg+W, U</Shortcut>
+					<Shortcut Command="View.DocumentOutline" Scope="Global">Strg+W, Strg+U</Shortcut>
+					<Shortcut Command="View.TaskList" Scope="Global">Strg+W, T</Shortcut>
+					<Shortcut Command="View.TaskList" Scope="Global">Strg+W, Strg+T</Shortcut>
+					<Shortcut Command="View.ErrorList" Scope="Global">Strg+W, E</Shortcut>
+					<Shortcut Command="View.ErrorList" Scope="Global">Strg+W, Strg+E</Shortcut>
+					<Shortcut Command="View.ViewCode" Scope="Global">F7</Shortcut>
+					<Shortcut Command="View.ViewDesigner" Scope="Global">Umschalt+F7</Shortcut>
+					<Shortcut Command="View.Output" Scope="Global">Strg+W, O</Shortcut>
+					<Shortcut Command="View.Output" Scope="Global">Strg+W, Strg+O</Shortcut>
+					<Shortcut Command="View.FindSymbolResults" Scope="Global">Strg+W, Q</Shortcut>
+					<Shortcut Command="View.FindSymbolResults" Scope="Global">Strg+W, Strg+Q</Shortcut>
+					<Shortcut Command="Edit.EnableBookmark" Scope="Text Editor">Strg+B, E</Shortcut>
+					<Shortcut Command="Edit.EnableBookmark" Scope="Text Editor">Strg+B, Strg+E</Shortcut>
+					<Shortcut Command="View.WebBrowser" Scope="Global">Strg+W, W</Shortcut>
+					<Shortcut Command="View.WebBrowser" Scope="Global">Strg+W, Strg+W</Shortcut>
+					<Shortcut Command="Help.ViewHelp" Scope="Global">Strg+F1, V</Shortcut>
+					<Shortcut Command="Help.ViewHelp" Scope="Global">Strg+F1, Strg+V</Shortcut>
+					<Shortcut Command="Help.ManageHelpSettings" Scope="Global">Strg+F1, M</Shortcut>
+					<Shortcut Command="Help.ManageHelpSettings" Scope="Global">Strg+F1, Strg+M</Shortcut>
+					<Shortcut Command="Edit.GenerateMethod" Scope="Global">Strg+K, M</Shortcut>
+					<Shortcut Command="Edit.GenerateMethod" Scope="Global">Strg+K, Strg+M</Shortcut>
+					<Shortcut Command="Edit.FindAllReferences" Scope="Global">Strg+K, R</Shortcut>
+					<Shortcut Command="Edit.FindAllReferences" Scope="Global">Strg+K, Strg+R</Shortcut>
+					<Shortcut Command="Edit.FindAllReferences" Scope="Global">Umschalt+F12</Shortcut>
+					<Shortcut Command="Edit.SwapAnchor" Scope="Text Editor">Strg+E, A</Shortcut>
+					<Shortcut Command="Edit.SwapAnchor" Scope="Text Editor">Strg+E, Strg+A</Shortcut>
+					<Shortcut Command="Edit.DeleteHorizontalWhiteSpace" Scope="Text Editor">Strg+E, ß</Shortcut>
+					<Shortcut Command="Edit.DeleteHorizontalWhiteSpace" Scope="Text Editor">Strg+E, Strg+ß</Shortcut>
+					<Shortcut Command="Edit.ClearBookmarks" Scope="Text Editor">Strg+B, C</Shortcut>
+					<Shortcut Command="Edit.ClearBookmarks" Scope="Text Editor">Strg+B, Strg+C</Shortcut>
+					<Shortcut Command="Edit.ToggleBookmark" Scope="Text Editor">Strg+B, T</Shortcut>
+					<Shortcut Command="Edit.ToggleBookmark" Scope="Text Editor">Strg+B, Strg+T</Shortcut>
+					<Shortcut Command="Edit.NextBookmark" Scope="Text Editor">Strg+B, N</Shortcut>
+					<Shortcut Command="Edit.NextBookmark" Scope="Text Editor">Strg+B, Strg+N</Shortcut>
+					<Shortcut Command="Edit.PreviousBookmark" Scope="Text Editor">Strg+B, P</Shortcut>
+					<Shortcut Command="Edit.PreviousBookmark" Scope="Text Editor">Strg+B, Strg+P</Shortcut>
+					<Shortcut Command="Edit.ParameterInfo" Scope="Text Editor">Strg+K, P</Shortcut>
+					<Shortcut Command="Edit.ParameterInfo" Scope="Text Editor">Strg+K, Strg+P</Shortcut>
+					<Shortcut Command="Edit.ViewWhiteSpace" Scope="Text Editor">Strg+E, S</Shortcut>
+					<Shortcut Command="Edit.ViewWhiteSpace" Scope="Text Editor">Strg+E, Strg+S</Shortcut>
+					<Shortcut Command="Edit.CompleteWord" Scope="Text Editor">Strg+K, W</Shortcut>
+					<Shortcut Command="Edit.CompleteWord" Scope="Text Editor">Strg+K, Strg+W</Shortcut>
+					<Shortcut Command="Edit.ListMembers" Scope="Text Editor">Strg+K, L</Shortcut>
+					<Shortcut Command="Edit.ListMembers" Scope="Text Editor">Strg+K, Strg+L</Shortcut>
+					<Shortcut Command="Edit.FormatSelection" Scope="Text Editor">Strg+E, F</Shortcut>
+					<Shortcut Command="Edit.FormatSelection" Scope="Text Editor">Strg+E, Strg+F</Shortcut>
+					<Shortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Strg+E, T</Shortcut>
+					<Shortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Strg+E, Strg+T</Shortcut>
+					<Shortcut Command="Edit.QuickInfo" Scope="Text Editor">Strg+K, I</Shortcut>
+					<Shortcut Command="Edit.ToggleWordWrap" Scope="Text Editor">Strg+E, W</Shortcut>
+					<Shortcut Command="Edit.ToggleOutliningExpansion" Scope="Text Editor">Strg+M, M</Shortcut>
+					<Shortcut Command="Edit.ToggleAllOutlining" Scope="Text Editor">Strg+M, L</Shortcut>
+					<Shortcut Command="Edit.StopOutlining" Scope="Text Editor">Strg+M, P</Shortcut>
+					<Shortcut Command="Edit.CollapsetoDefinitions" Scope="Text Editor">Strg+M, O</Shortcut>
+					<Shortcut Command="Edit.CommentSelection" Scope="Text Editor">Strg+E, C</Shortcut>
+					<Shortcut Command="Edit.CommentSelection" Scope="Text Editor">Strg+E, Strg+C</Shortcut>
+					<Shortcut Command="Edit.UncommentSelection" Scope="Text Editor">Strg+E, U</Shortcut>
+					<Shortcut Command="Edit.UncommentSelection" Scope="Text Editor">Strg+E, Strg+U</Shortcut>
+					<Shortcut Command="Edit.FormatDocument" Scope="Text Editor">Strg+E, D</Shortcut>
+					<Shortcut Command="Edit.FormatDocument" Scope="Text Editor">Strg+E, Strg+D</Shortcut>
+				</DefaultShortcuts>
+				<ShortcutsScheme/>
+				<UserShortcuts/>
+			</KeyboardShortcuts>
+		</Category>
+	</Category>
+	<Category name="WindowsFormsDesigner_General" Category="{de03177c-918d-40af-8c17-c9d63670c175}" Package="{7b5d447b-0b12-41ea-a84e-c822034422d4}" RegisteredName="WindowsFormsDesigner_General" PackageName="Windows Forms Designer Resources Package">
+		<PropertyValue name="AutoToolboxPopulate">True</PropertyValue>
+		<PropertyValue name="EnableInSituEditing">True</PropertyValue>
+		<PropertyValue name="EnableRefactoringOnRename">True</PropertyValue>
+		<PropertyValue name="GridSize">8, 8</PropertyValue>
+		<PropertyValue name="LayoutMode">SnapLines</PropertyValue>
+		<PropertyValue name="ObjectBoundSmartTagAutoShow">True</PropertyValue>
+		<PropertyValue name="ShowGrid">True</PropertyValue>
+		<PropertyValue name="SnapToGrid">True</PropertyValue>
+		<PropertyValue name="UseOptimizedCodeGeneration">True</PropertyValue>
+	</Category>
+</UserSettings>

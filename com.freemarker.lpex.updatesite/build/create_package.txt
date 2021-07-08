@@ -1,0 +1,30 @@
+
+Info
+====
+
+The "build.xml" Ant script must run in the same JRE of the workspace,
+to make the "eclipse.refreshLocal" tag work properly.
+
+
+
+Preparation
+===========
+
+1. Open "build.properties" of project "com.freemarker.lpex.updatesite".
+2. Increment version number of property "build.version".
+3. Validate path to "MSBuild.exe" at property "net.msbuild.path".
+
+
+Creating the Update Site
+========================
+
+4. Execute target "build".
+5. Create plug-in: Right-click 'site.xml', select 'PDE Tools -> Build Site'.
+6. Execute target "createSourceForgeFiles".
+7. Check-in source code.
+8. Create version tag.
+
+The result of the build process is placed into folder "upload" of
+project "com.freemarker.lpex.updatesite".
+
+See also: build.xml
